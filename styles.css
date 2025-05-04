@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  background-color: #fff9f9;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #fffbe6;
   color: #222;
   padding: 2rem;
   line-height: 1.6;
@@ -13,15 +13,15 @@ main {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #e03131;
   margin-bottom: 0.2em;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
-  color: #495057;
+  color: #444;
 }
 
 .examples h2 {
@@ -35,28 +35,55 @@ ul {
 }
 
 ul.bad li {
-  background-color: #fff5f5;
-  border-left: 5px solid #fa5252;
-  padding: 0.5rem 1rem;
+  background-color: #fff0f6;
+  border-left: 5px solid #f06595;
+  padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
+  font-style: italic;
 }
 
 ul.good li {
-  background-color: #e6fcf5;
-  border-left: 5px solid #20c997;
-  padding: 0.5rem 1rem;
+  background-color: #e7f5ff;
+  border-left: 5px solid #339af0;
+  padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 footer {
   margin-top: 3rem;
   font-size: 0.9rem;
   text-align: center;
-  color: #868e96;
+  color: #888;
 }
 
 footer a {
-  color: #444;
+  color: #222;
   text-decoration: underline;
+}
+
+.yapping-btn, .rickroll-btn {
+  background-color: #f06595;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.yapping-btn:hover, .rickroll-btn:hover {
+  background-color: #d6336c;
+}
+
+.rickroll-btn {
+  background-color: #28a745;
+  margin-top: 1rem;
+}
+
+.rickroll-btn:hover {
+  background-color: #218838;
 }
 
