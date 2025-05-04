@@ -1,88 +1,59 @@
 body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
   margin: 0;
-  font-family: 'Segoe UI', system-ui, sans-serif;
-  background-color: #fffbe6;
-  color: #222;
-  padding: 2rem;
+  padding: 2em;
   line-height: 1.6;
 }
 
 main {
-  max-width: 720px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
-  font-size: 3.5rem;
-  color: #e03131;
+  font-size: 3em;
   margin-bottom: 0.2em;
 }
 
-.subtitle {
-  font-size: 1.4rem;
-  margin-bottom: 2rem;
-  color: #444;
+.tagline {
+  font-size: 1.5em;
+  color: #555;
+  margin-bottom: 2em;
 }
 
-.examples h2 {
-  margin-top: 2rem;
-  color: #343a40;
+.content h2 {
+  margin-top: 1.5em;
+  color: #e74c3c;
+}
+
+.good-examples h2 {
+  color: #2ecc71;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   padding-left: 0;
 }
 
-ul.bad li {
-  background-color: #fff0f6;
-  border-left: 5px solid #f06595;
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.5rem;
-  font-style: italic;
+li {
+  margin-bottom: 0.5em;
 }
 
-ul.good li {
-  background-color: #e7f5ff;
-  border-left: 5px solid #339af0;
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
+.actions {
+  margin-top: 2em;
+}
+
+.actions button {
+  margin-right: 1em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
 }
 
 footer {
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  text-align: center;
-  color: #888;
-}
-
-footer a {
-  color: #222;
-  text-decoration: underline;
-}
-
-.yapping-btn, .rickroll-btn {
-  background-color: #f06595;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-top: 1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.yapping-btn:hover, .rickroll-btn:hover {
-  background-color: #d6336c;
-}
-
-.rickroll-btn {
-  background-color: #28a745;
-  margin-top: 1rem;
-}
-
-.rickroll-btn:hover {
-  background-color: #218838;
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #777;
 }
