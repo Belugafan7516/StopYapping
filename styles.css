@@ -1,20 +1,20 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background-color: #f8f9fa;
-  color: #212529;
+  background-color: #fff9f9;
+  color: #222;
   padding: 2rem;
   line-height: 1.6;
 }
 
 main {
-  max-width: 700px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
 h1 {
   font-size: 3rem;
-  color: #d6336c;
+  color: #e03131;
   margin-bottom: 0.2em;
 }
 
@@ -35,15 +35,15 @@ ul {
 }
 
 ul.bad li {
-  background-color: #ffe3e3;
+  background-color: #fff5f5;
   border-left: 5px solid #fa5252;
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
 }
 
 ul.good li {
-  background-color: #d3f9d8;
-  border-left: 5px solid #40c057;
+  background-color: #e6fcf5;
+  border-left: 5px solid #20c997;
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
 }
@@ -56,6 +56,7 @@ footer {
 }
 
 footer a {
-  color: #495057;
+  color: #444;
   text-decoration: underline;
 }
+
