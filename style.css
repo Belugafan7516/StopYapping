@@ -1,59 +1,116 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
+/* Global reset */
+* {
   margin: 0;
-  padding: 2em;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  font-size: 16px;
   line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
 }
 
+/* Main content container */
 main {
-  max-width: 800px;
-  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
 }
 
+/* Header */
 h1 {
-  font-size: 3em;
-  margin-bottom: 0.2em;
+  font-size: 2.5rem;
+  color: #ff6347; /* Tomato */
+  margin-bottom: 15px;
 }
 
+/* Tagline */
 .tagline {
-  font-size: 1.5em;
-  color: #555;
-  margin-bottom: 2em;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-.content h2 {
-  margin-top: 1.5em;
-  color: #e74c3c;
+/* Content Section */
+.content {
+  margin-bottom: 30px;
 }
 
-.good-examples h2 {
-  color: #2ecc71;
+/* Examples */
+h2 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 1.5rem;
 }
 
-ul {
+/* Bad examples */
+.bad-examples {
   list-style-type: none;
-  padding-left: 0;
+  margin-top: 10px;
 }
 
-li {
-  margin-bottom: 0.5em;
+.bad-examples li {
+  background-color: #ffcccc;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  font-size: 1.1rem;
 }
 
-.actions {
-  margin-top: 2em;
+/* Good examples */
+.good-examples {
+  list-style-type: none;
+  margin-top: 10px;
 }
 
+.good-examples li {
+  background-color: #ccffcc;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+/* Action Buttons */
 .actions button {
-  margin-right: 1em;
-  padding: 0.5em 1em;
-  font-size: 1em;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.actions button:hover {
+  background-color: #e55347;
+}
+
+/* Footer */
 footer {
-  margin-top: 3em;
-  font-size: 0.9em;
-  color: #777;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
