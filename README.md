@@ -21,7 +21,7 @@ To run the project locally or deploy it:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/stop-yapping.git
+   git clone https://github.com/Belugafan7516/StopYapping.git
    cd stop-yapping
 Install dependencies (if any):
 This project doesn't require any dependencies, as it's purely HTML and CSS.
